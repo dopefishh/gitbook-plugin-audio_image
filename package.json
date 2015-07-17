@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-audio_image",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Gitbook plugin to make images that play audio when clicked",
   "main": "index.js",
   "engines": {

@@ -1,4 +1,4 @@
-Clickable images that play audio v0.0.6
+Clickable images that play audio v0.0.7
 =======================================
 ###Introduction
 `audio_image` is a plugin that allows writers using gitbook to insert images

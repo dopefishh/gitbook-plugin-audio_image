@@ -26,7 +26,7 @@ module.exports={
 					 	'" onclick="document.getElementById(\'aimg-',
 						iid,
 					 	'\').play()"',
-					 	imgtags, '/>');
+					 	imgtags, '/><br />');
 					if (this.generator == 'website') {
 						s = s.concat('<audio id="aimg-', iid, '"', audiotags, '>');
 						for(var i = 1; i<args.length; i++){

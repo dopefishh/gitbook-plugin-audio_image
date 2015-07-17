@@ -1,4 +1,4 @@
-Clickable images that play audio v0.0.5
+Clickable images that play audio v0.0.6
 =======================================
 ###Introduction
 `audio_image` is a plugin that allows writers using gitbook to insert images
@@ -15,6 +15,7 @@ Add to `book.json`: `plugins: ["audio_image"]`
 ```
 
 ##Examples
+You can view these examples live [here][2]
 ####Minimal example
 ```
 {% aimg %}img/img1.png,audio/img1.wav{% endaimg %}
@@ -51,3 +52,4 @@ Mart Lubbers (mart@martlubbers.net)
 See `LICENCE` file.
 
 [1]: https://en.wikipedia.org/wiki/HTML5_Audio#Supported_Browsers_4
+[2]: http://dopefishh.gitbooks.io/audio_image-examples/content/examples.html

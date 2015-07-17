@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-audio_image",
-  "version": "0.0.2",
+  "version": "0.0.3"
   "description": "Gitbook plugin to make images that play audio when clicked",
   "main": "index.js",
   "engines": {
@@ -11,17 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dopefishh/gitbook-plugin-audio_image.git"
+    "url": "git+https://github.com/dopefishh/gitbook-plugin-audio_image.git"
   },
   "keywords": [
-		"gitbook",
+    "gitbook",
     "audio",
     "images"
   ],
-  "author": "Mart Lubbers",
+  "author": {
+    "name": "Mart Lubbers"
+  },
   "license": "Beerware",
   "bugs": {
     "url": "https://github.com/dopefishh/gitbook-plugin-audio_image/issues"
   },
-  "homepage": "https://github.com/dopefishh/gitbook-plugin-audio_image"
+  "homepage": "https://github.com/dopefishh/gitbook-plugin-audio_image",
 }

@@ -33,7 +33,9 @@ empty value.
 ####Multiple audio files for better performance
 [Different browsers support different audiofiles][1]. So if you want to support
 all the browsers you can specify multiple files.
+```
 {% aimg %}img/img1.png,audio/img1.ogg,audio/img1.mp3{% endaimg %}
+```
 
 ##Author
 Mart Lubbers (mart@martlubbers.net)

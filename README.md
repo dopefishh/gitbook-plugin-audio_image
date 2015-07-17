@@ -17,7 +17,7 @@ Add to `book.json`: `plugins: ["audio_image"]`
 ##Examples
 ####Minimal example
 ```
-{% aimg %}img/img1.png,audio/wav1.wav{% endaimg %}
+{% aimg %}img/img1.png,audio/img1.wav{% endaimg %}
 ```
 
 ####Example of keyword arguments
@@ -27,7 +27,7 @@ will show an image of a specific size and will show audio controls. Note that
 for non keyword arguments in `HTML` you must use a keyword argument with an
 empty value.
 ```
-{% aimg imgwidth="50", imgheight="100" audiocontrols=""%}img/img1.png,wav/wav1.wav{% endaimg %}
+{% aimg imgwidth="50", imgheight="100", audiocontrols=""%}img/img1.png,audio/img1.wav{% endaimg %}
 ```
 
 ####Multiple audio files for better performance
@@ -35,6 +35,13 @@ empty value.
 all the browsers you can specify multiple files.
 ```
 {% aimg %}img/img1.png,audio/img1.ogg,audio/img1.mp3{% endaimg %}
+```
+
+####Comma in filename
+If you really want comma's in your filename you can escape them with a single
+backslash.
+```
+{% aimg %}img/img\,1.png,audio/img1.wav{% endaimg %}
 ```
 
 ##Author

@@ -20,12 +20,17 @@ module.exports={
 				audiotags = parse_arguments('audio', block.kwargs);
 				if(args.length >= 2){
 					var iid = Math.random().toString(16).substr(2);
-					s = ''.concat('<img src="', args[0], '" ', 'onclick="document.getEl',
-						"ementById('aimg-", iid, '\').play()"', imgtags, '/>')
+					s = ''.concat(
+						'<img src="',
+					 	args[0].replace('\\,', ','),
+					 	'" onclick="document.getElementById(\'aimg-',
+						iid,
+					 	'\').play()"',
+					 	imgtags, '/>');
 					if (this.generator == 'website') {
 						s = s.concat('<audio id="aimg-', iid, '"', audiotags, '>');
 						for(var i = 1; i<args.length; i++){
-							s += '<source src="' + args[i] + '" />';
+							s += '<source src="' + args[i].replace('\\,', ',') + '" />';
 						}
 					}
 					return s + args.slice(1) + '</audio>';

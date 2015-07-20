@@ -51,5 +51,5 @@ Mart Lubbers (mart@martlubbers.net)
 ##Licence
 See `LICENCE` file.
 
-[1]: https://en.wikipedia.org/wiki/HTML5_Audio#Supported_Browsers_4
+[1]: https://en.wikipedia.org/wiki/HTML5_Audio#Supported_Browsers_2
 [2]: http://dopefishh.gitbooks.io/audio_image-examples/content/examples.html
